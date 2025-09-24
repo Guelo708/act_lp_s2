@@ -7,7 +7,10 @@ public class Ejercicio1 {
         String nombre = "Miguel";
         boolean estudiante = true;
 
-        System.out.println("Hola, tu nombre es: " + nombre + " tu edad es: " + edad + " y mides:  "+ altura + " ademas eres estudiante "+ estudiante);
+        System.out.println(edad);
+        System.out.println(altura);
+        System.out.println(nombre);
+        System.out.println(estudiante);
     
     }
 }
