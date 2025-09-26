@@ -2,7 +2,7 @@ package com.example;
 import java.util.Scanner;
 
 public class Ejercicio6 {
-    public static void main(String[] args) {
+    public static void ejercicio6() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese su nombre: ");
         String nombre = scanner.nextLine();
@@ -15,6 +15,9 @@ public class Ejercicio6 {
         System.out.println("Edad: " + edad + " años");
         System.out.println("Altura: " + altura + " metros");
         scanner.close();
+}
+        public static void main(String[] args) {
+        ejercicio6();
         
     }
 }
